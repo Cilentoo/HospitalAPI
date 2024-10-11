@@ -38,7 +38,7 @@ public class Consulta {
 	@JoinColumn(name = "MEDICO_CODIGO")
 	private Medico medico;
 	
-	@Enumerated(EnumType.STRING)
+	@Enumerated(EnumType.ORDINAL)
 	private ConsultaEnum status;
 	
 	
